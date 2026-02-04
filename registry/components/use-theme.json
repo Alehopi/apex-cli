@@ -1,0 +1,19 @@
+{
+  "name": "use-theme",
+  "type": "registry:hook",
+  "title": "useTheme",
+  "description": "Theme hook and provider for managing light, dark, and system theme modes.",
+  "category": "utility",
+  "files": [
+    {
+      "path": "../../saas-design-system/src/hooks/useTheme.tsx",
+      "target": "hooks/use-theme.tsx"
+    }
+  ],
+  "dependencies": [],
+  "registryDependencies": [],
+  "exports": [
+    "useTheme",
+    "ThemeProvider"
+  ]
+}

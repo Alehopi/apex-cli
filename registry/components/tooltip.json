@@ -1,0 +1,24 @@
+{
+  "name": "tooltip",
+  "type": "registry:ui",
+  "title": "Tooltip",
+  "description": "A popup that displays additional information on hover or focus.",
+  "category": "overlay",
+  "files": [
+    {
+      "path": "../../saas-design-system/src/components/Tooltip/Tooltip.tsx",
+      "target": "components/ui/tooltip.tsx"
+    }
+  ],
+  "dependencies": [
+    "@radix-ui/react-tooltip@^1.0.0"
+  ],
+  "registryDependencies": ["utils"],
+  "exports": [
+    "TooltipProvider",
+    "Tooltip",
+    "TooltipTrigger",
+    "TooltipContent",
+    "SimpleTooltip"
+  ]
+}

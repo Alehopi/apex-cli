@@ -1,0 +1,25 @@
+{
+  "name": "table",
+  "type": "registry:ui",
+  "title": "Table",
+  "description": "A structured data display with rows, columns, headers, and captions.",
+  "category": "data-display",
+  "files": [
+    {
+      "path": "../../saas-design-system/src/components/Table/Table.tsx",
+      "target": "components/ui/table.tsx"
+    }
+  ],
+  "dependencies": [],
+  "registryDependencies": ["utils"],
+  "exports": [
+    "Table",
+    "TableHeader",
+    "TableBody",
+    "TableFooter",
+    "TableHead",
+    "TableRow",
+    "TableCell",
+    "TableCaption"
+  ]
+}

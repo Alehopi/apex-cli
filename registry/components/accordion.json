@@ -1,0 +1,24 @@
+{
+  "name": "accordion",
+  "type": "registry:ui",
+  "title": "Accordion",
+  "description": "A vertically stacked set of interactive headings that reveal or hide associated content.",
+  "category": "navigation",
+  "files": [
+    {
+      "path": "../../saas-design-system/src/components/Accordion/Accordion.tsx",
+      "target": "components/ui/accordion.tsx"
+    }
+  ],
+  "dependencies": [
+    "@radix-ui/react-accordion@^1.0.0",
+    "lucide-react@^0.563.0"
+  ],
+  "registryDependencies": ["utils"],
+  "exports": [
+    "Accordion",
+    "AccordionItem",
+    "AccordionTrigger",
+    "AccordionContent"
+  ]
+}

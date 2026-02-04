@@ -1,0 +1,19 @@
+{
+  "name": "empty-state",
+  "type": "registry:ui",
+  "title": "EmptyState",
+  "description": "A placeholder component displayed when there is no data or content to show.",
+  "category": "feedback",
+  "files": [
+    {
+      "path": "../../saas-design-system/src/components/EmptyState/EmptyState.tsx",
+      "target": "components/ui/empty-state.tsx"
+    }
+  ],
+  "dependencies": [],
+  "registryDependencies": ["utils"],
+  "exports": [
+    "EmptyState",
+    "EmptyStateProps"
+  ]
+}

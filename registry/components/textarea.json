@@ -1,0 +1,19 @@
+{
+  "name": "textarea",
+  "type": "registry:ui",
+  "title": "Textarea",
+  "description": "A multi-line text input field for longer content.",
+  "category": "inputs",
+  "files": [
+    {
+      "path": "../../saas-design-system/src/components/Textarea/Textarea.tsx",
+      "target": "components/ui/textarea.tsx"
+    }
+  ],
+  "dependencies": [],
+  "registryDependencies": ["utils"],
+  "exports": [
+    "Textarea",
+    "TextareaProps"
+  ]
+}

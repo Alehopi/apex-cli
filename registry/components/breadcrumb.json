@@ -1,0 +1,26 @@
+{
+  "name": "breadcrumb",
+  "type": "registry:ui",
+  "title": "Breadcrumb",
+  "description": "A navigation aid that shows the user's current location within a hierarchy.",
+  "category": "navigation",
+  "files": [
+    {
+      "path": "../../saas-design-system/src/components/Breadcrumb/Breadcrumb.tsx",
+      "target": "components/ui/breadcrumb.tsx"
+    }
+  ],
+  "dependencies": [
+    "lucide-react@^0.563.0"
+  ],
+  "registryDependencies": ["utils"],
+  "exports": [
+    "Breadcrumb",
+    "BreadcrumbList",
+    "BreadcrumbItem",
+    "BreadcrumbLink",
+    "BreadcrumbPage",
+    "BreadcrumbSeparator",
+    "BreadcrumbEllipsis"
+  ]
+}

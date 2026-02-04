@@ -1,0 +1,19 @@
+{
+  "name": "input",
+  "type": "registry:ui",
+  "title": "Input",
+  "description": "A text input field for capturing user data.",
+  "category": "inputs",
+  "files": [
+    {
+      "path": "../../saas-design-system/src/components/Input/Input.tsx",
+      "target": "components/ui/input.tsx"
+    }
+  ],
+  "dependencies": [],
+  "registryDependencies": ["utils"],
+  "exports": [
+    "Input",
+    "InputProps"
+  ]
+}

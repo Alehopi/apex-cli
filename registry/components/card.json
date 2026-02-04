@@ -1,0 +1,26 @@
+{
+  "name": "card",
+  "type": "registry:ui",
+  "title": "Card",
+  "description": "A container for grouping related content and actions.",
+  "category": "display",
+  "files": [
+    {
+      "path": "../../saas-design-system/src/components/Card/Card.tsx",
+      "target": "components/ui/card.tsx"
+    }
+  ],
+  "dependencies": [
+    "class-variance-authority@^0.7.1"
+  ],
+  "registryDependencies": ["utils"],
+  "exports": [
+    "Card",
+    "CardHeader",
+    "CardTitle",
+    "CardDescription",
+    "CardContent",
+    "CardFooter",
+    "cardVariants"
+  ]
+}

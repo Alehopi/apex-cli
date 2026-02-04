@@ -1,0 +1,18 @@
+{
+  "name": "field-group",
+  "type": "registry:ui",
+  "title": "FieldGroup",
+  "description": "A grouping container for related form fields with accessible labeling.",
+  "category": "utility",
+  "files": [
+    {
+      "path": "../../saas-design-system/src/components/FieldGroup/FieldGroup.tsx",
+      "target": "components/ui/field-group.tsx"
+    }
+  ],
+  "dependencies": [],
+  "registryDependencies": ["utils"],
+  "exports": [
+    "FieldGroup"
+  ]
+}

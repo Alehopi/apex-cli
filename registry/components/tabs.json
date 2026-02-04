@@ -1,0 +1,23 @@
+{
+  "name": "tabs",
+  "type": "registry:ui",
+  "title": "Tabs",
+  "description": "A set of layered panels that display one at a time via tab navigation.",
+  "category": "navigation",
+  "files": [
+    {
+      "path": "../../saas-design-system/src/components/Tabs/Tabs.tsx",
+      "target": "components/ui/tabs.tsx"
+    }
+  ],
+  "dependencies": [
+    "@radix-ui/react-tabs@^1.0.0"
+  ],
+  "registryDependencies": ["utils"],
+  "exports": [
+    "Tabs",
+    "TabsList",
+    "TabsTrigger",
+    "TabsContent"
+  ]
+}

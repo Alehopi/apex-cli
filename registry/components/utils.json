@@ -1,0 +1,21 @@
+{
+  "name": "utils",
+  "type": "registry:lib",
+  "title": "Utils",
+  "description": "Utility function cn() for merging Tailwind CSS classes with conditional logic.",
+  "category": "utility",
+  "files": [
+    {
+      "path": "../../saas-design-system/src/lib/utils.ts",
+      "target": "lib/utils.ts"
+    }
+  ],
+  "dependencies": [
+    "clsx@^2.1.1",
+    "tailwind-merge@^3.4.0"
+  ],
+  "registryDependencies": [],
+  "exports": [
+    "cn"
+  ]
+}

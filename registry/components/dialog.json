@@ -1,0 +1,30 @@
+{
+  "name": "dialog",
+  "type": "registry:ui",
+  "title": "Dialog",
+  "description": "A modal window that overlays the main content for focused interactions.",
+  "category": "overlay",
+  "files": [
+    {
+      "path": "../../saas-design-system/src/components/Dialog/Dialog.tsx",
+      "target": "components/ui/dialog.tsx"
+    }
+  ],
+  "dependencies": [
+    "@radix-ui/react-dialog@^1.0.0",
+    "lucide-react@^0.563.0"
+  ],
+  "registryDependencies": ["utils"],
+  "exports": [
+    "Dialog",
+    "DialogPortal",
+    "DialogOverlay",
+    "DialogClose",
+    "DialogTrigger",
+    "DialogContent",
+    "DialogHeader",
+    "DialogFooter",
+    "DialogTitle",
+    "DialogDescription"
+  ]
+}

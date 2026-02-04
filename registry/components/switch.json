@@ -1,0 +1,20 @@
+{
+  "name": "switch",
+  "type": "registry:ui",
+  "title": "Switch",
+  "description": "A toggle control for switching between on and off states.",
+  "category": "inputs",
+  "files": [
+    {
+      "path": "../../saas-design-system/src/components/Switch/Switch.tsx",
+      "target": "components/ui/switch.tsx"
+    }
+  ],
+  "dependencies": [
+    "@radix-ui/react-switch@^1.0.0"
+  ],
+  "registryDependencies": ["utils"],
+  "exports": [
+    "Switch"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "error-message",
+  "type": "registry:ui",
+  "title": "ErrorMessage",
+  "description": "Displays form validation error messages with accessible aria-live announcements.",
+  "category": "utility",
+  "files": [
+    {
+      "path": "../../saas-design-system/src/components/ErrorMessage/ErrorMessage.tsx",
+      "target": "components/ui/error-message.tsx"
+    }
+  ],
+  "dependencies": [],
+  "registryDependencies": ["utils"],
+  "exports": [
+    "ErrorMessage"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "badge",
+  "type": "registry:ui",
+  "title": "Badge",
+  "description": "Displays a small label or status indicator with contextual variants.",
+  "category": "display",
+  "files": [
+    {
+      "path": "../../saas-design-system/src/components/Badge/Badge.tsx",
+      "target": "components/ui/badge.tsx"
+    }
+  ],
+  "dependencies": [
+    "class-variance-authority@^0.7.1"
+  ],
+  "registryDependencies": ["utils"],
+  "exports": [
+    "Badge",
+    "badgeVariants",
+    "BadgeProps"
+  ]
+}

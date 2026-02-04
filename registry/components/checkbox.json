@@ -1,0 +1,21 @@
+{
+  "name": "checkbox",
+  "type": "registry:ui",
+  "title": "Checkbox",
+  "description": "A control that allows the user to toggle between checked and unchecked states.",
+  "category": "inputs",
+  "files": [
+    {
+      "path": "../../saas-design-system/src/components/Checkbox/Checkbox.tsx",
+      "target": "components/ui/checkbox.tsx"
+    }
+  ],
+  "dependencies": [
+    "@radix-ui/react-checkbox@^1.0.0",
+    "lucide-react@^0.563.0"
+  ],
+  "registryDependencies": ["utils"],
+  "exports": [
+    "Checkbox"
+  ]
+}

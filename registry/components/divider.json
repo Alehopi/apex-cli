@@ -1,0 +1,20 @@
+{
+  "name": "divider",
+  "type": "registry:ui",
+  "title": "Divider",
+  "description": "A visual separator between content sections.",
+  "category": "display",
+  "files": [
+    {
+      "path": "../../saas-design-system/src/components/Divider/Divider.tsx",
+      "target": "components/ui/divider.tsx"
+    }
+  ],
+  "dependencies": [
+    "@radix-ui/react-separator@^1.0.0"
+  ],
+  "registryDependencies": ["utils"],
+  "exports": [
+    "Divider"
+  ]
+}

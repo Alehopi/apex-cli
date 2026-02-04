@@ -1,0 +1,30 @@
+{
+  "name": "select",
+  "type": "registry:ui",
+  "title": "Select",
+  "description": "A dropdown control for choosing one option from a list.",
+  "category": "inputs",
+  "files": [
+    {
+      "path": "../../saas-design-system/src/components/Select/Select.tsx",
+      "target": "components/ui/select.tsx"
+    }
+  ],
+  "dependencies": [
+    "@radix-ui/react-select@^1.0.0",
+    "lucide-react@^0.563.0"
+  ],
+  "registryDependencies": ["utils"],
+  "exports": [
+    "Select",
+    "SelectGroup",
+    "SelectValue",
+    "SelectTrigger",
+    "SelectContent",
+    "SelectLabel",
+    "SelectItem",
+    "SelectSeparator",
+    "SelectScrollUpButton",
+    "SelectScrollDownButton"
+  ]
+}

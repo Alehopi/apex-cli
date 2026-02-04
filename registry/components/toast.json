@@ -1,0 +1,29 @@
+{
+  "name": "toast",
+  "type": "registry:ui",
+  "title": "Toast",
+  "description": "A brief, auto-dismissing notification message that appears temporarily.",
+  "category": "feedback",
+  "files": [
+    {
+      "path": "../../saas-design-system/src/components/Toast/Toast.tsx",
+      "target": "components/ui/toast.tsx"
+    }
+  ],
+  "dependencies": [
+    "@radix-ui/react-toast@^1.0.0",
+    "lucide-react@^0.563.0",
+    "class-variance-authority@^0.7.1"
+  ],
+  "registryDependencies": ["utils"],
+  "exports": [
+    "ToastProvider",
+    "ToastViewport",
+    "Toast",
+    "ToastTitle",
+    "ToastDescription",
+    "ToastClose",
+    "ToastAction",
+    "ToastContent"
+  ]
+}

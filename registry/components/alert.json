@@ -1,0 +1,23 @@
+{
+  "name": "alert",
+  "type": "registry:ui",
+  "title": "Alert",
+  "description": "Displays a callout for important messages with contextual variants.",
+  "category": "feedback",
+  "files": [
+    {
+      "path": "../../saas-design-system/src/components/Alert/Alert.tsx",
+      "target": "components/ui/alert.tsx"
+    }
+  ],
+  "dependencies": [
+    "class-variance-authority@^0.7.1",
+    "lucide-react@^0.563.0"
+  ],
+  "registryDependencies": ["utils"],
+  "exports": [
+    "Alert",
+    "AlertTitle",
+    "AlertDescription"
+  ]
+}

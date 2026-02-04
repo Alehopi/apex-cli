@@ -1,0 +1,21 @@
+{
+  "name": "theme-toggler",
+  "type": "registry:ui",
+  "title": "ThemeToggler",
+  "description": "A three-way toggle for switching between light, dark, and system theme modes.",
+  "category": "utility",
+  "files": [
+    {
+      "path": "../../saas-design-system/src/components/ThemeToggler/ThemeToggler.tsx",
+      "target": "components/ui/theme-toggler.tsx"
+    }
+  ],
+  "dependencies": [
+    "lucide-react@^0.563.0"
+  ],
+  "registryDependencies": ["utils", "use-theme"],
+  "exports": [
+    "ThemeToggler",
+    "ThemeTogglerProps"
+  ]
+}

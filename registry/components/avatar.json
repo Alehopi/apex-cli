@@ -1,0 +1,24 @@
+{
+  "name": "avatar",
+  "type": "registry:ui",
+  "title": "Avatar",
+  "description": "An image element with a fallback for representing a user.",
+  "category": "display",
+  "files": [
+    {
+      "path": "../../saas-design-system/src/components/Avatar/Avatar.tsx",
+      "target": "components/ui/avatar.tsx"
+    }
+  ],
+  "dependencies": [
+    "@radix-ui/react-avatar@^1.0.0",
+    "class-variance-authority@^0.7.1"
+  ],
+  "registryDependencies": ["utils"],
+  "exports": [
+    "Avatar",
+    "AvatarImage",
+    "AvatarFallback",
+    "AvatarWithLabel"
+  ]
+}

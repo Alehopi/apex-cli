@@ -1,0 +1,23 @@
+{
+  "name": "button",
+  "type": "registry:ui",
+  "title": "Button",
+  "description": "An interactive element that triggers actions with multiple variants and sizes.",
+  "category": "inputs",
+  "files": [
+    {
+      "path": "../../saas-design-system/src/components/Button/Button.tsx",
+      "target": "components/ui/button.tsx"
+    }
+  ],
+  "dependencies": [
+    "class-variance-authority@^0.7.1",
+    "lucide-react@^0.563.0"
+  ],
+  "registryDependencies": ["utils"],
+  "exports": [
+    "Button",
+    "buttonVariants",
+    "ButtonProps"
+  ]
+}
