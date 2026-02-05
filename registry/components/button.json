@@ -6,7 +6,7 @@
   "category": "inputs",
   "files": [
     {
-      "path": "../../saas-design-system/src/components/Button/Button.tsx",
+      "path": "registry/source/button.tsx",
       "target": "components/ui/button.tsx"
     }
   ],
@@ -14,7 +14,9 @@
     "class-variance-authority@^0.7.1",
     "lucide-react@^0.563.0"
   ],
-  "registryDependencies": ["utils"],
+  "registryDependencies": [
+    "utils"
+  ],
   "exports": [
     "Button",
     "buttonVariants",

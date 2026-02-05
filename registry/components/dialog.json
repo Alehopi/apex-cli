@@ -6,7 +6,7 @@
   "category": "overlay",
   "files": [
     {
-      "path": "../../saas-design-system/src/components/Dialog/Dialog.tsx",
+      "path": "registry/source/dialog.tsx",
       "target": "components/ui/dialog.tsx"
     }
   ],
@@ -14,7 +14,9 @@
     "@radix-ui/react-dialog@^1.0.0",
     "lucide-react@^0.563.0"
   ],
-  "registryDependencies": ["utils"],
+  "registryDependencies": [
+    "utils"
+  ],
   "exports": [
     "Dialog",
     "DialogPortal",

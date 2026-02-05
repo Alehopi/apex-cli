@@ -6,7 +6,7 @@
   "category": "feedback",
   "files": [
     {
-      "path": "../../saas-design-system/src/components/Alert/Alert.tsx",
+      "path": "registry/source/alert.tsx",
       "target": "components/ui/alert.tsx"
     }
   ],
@@ -14,7 +14,9 @@
     "class-variance-authority@^0.7.1",
     "lucide-react@^0.563.0"
   ],
-  "registryDependencies": ["utils"],
+  "registryDependencies": [
+    "utils"
+  ],
   "exports": [
     "Alert",
     "AlertTitle",

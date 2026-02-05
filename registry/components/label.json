@@ -6,12 +6,14 @@
   "category": "utility",
   "files": [
     {
-      "path": "../../saas-design-system/src/components/Label/Label.tsx",
+      "path": "registry/source/label.tsx",
       "target": "components/ui/label.tsx"
     }
   ],
   "dependencies": [],
-  "registryDependencies": ["utils"],
+  "registryDependencies": [
+    "utils"
+  ],
   "exports": [
     "Label"
   ]

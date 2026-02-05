@@ -6,12 +6,14 @@
   "category": "inputs",
   "files": [
     {
-      "path": "../../saas-design-system/src/components/Textarea/Textarea.tsx",
+      "path": "registry/source/textarea.tsx",
       "target": "components/ui/textarea.tsx"
     }
   ],
   "dependencies": [],
-  "registryDependencies": ["utils"],
+  "registryDependencies": [
+    "utils"
+  ],
   "exports": [
     "Textarea",
     "TextareaProps"

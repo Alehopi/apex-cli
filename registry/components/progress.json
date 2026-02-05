@@ -6,14 +6,16 @@
   "category": "feedback",
   "files": [
     {
-      "path": "../../saas-design-system/src/components/Progress/Progress.tsx",
+      "path": "registry/source/progress.tsx",
       "target": "components/ui/progress.tsx"
     }
   ],
   "dependencies": [
     "@radix-ui/react-progress@^1.0.0"
   ],
-  "registryDependencies": ["utils"],
+  "registryDependencies": [
+    "utils"
+  ],
   "exports": [
     "Progress"
   ]

@@ -6,7 +6,7 @@
   "category": "inputs",
   "files": [
     {
-      "path": "../../saas-design-system/src/components/Select/Select.tsx",
+      "path": "registry/source/select.tsx",
       "target": "components/ui/select.tsx"
     }
   ],
@@ -14,7 +14,9 @@
     "@radix-ui/react-select@^1.0.0",
     "lucide-react@^0.563.0"
   ],
-  "registryDependencies": ["utils"],
+  "registryDependencies": [
+    "utils"
+  ],
   "exports": [
     "Select",
     "SelectGroup",

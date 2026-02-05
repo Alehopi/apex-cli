@@ -6,7 +6,7 @@
   "category": "feedback",
   "files": [
     {
-      "path": "../../saas-design-system/src/components/Toast/Toast.tsx",
+      "path": "registry/source/toast.tsx",
       "target": "components/ui/toast.tsx"
     }
   ],
@@ -15,7 +15,9 @@
     "lucide-react@^0.563.0",
     "class-variance-authority@^0.7.1"
   ],
-  "registryDependencies": ["utils"],
+  "registryDependencies": [
+    "utils"
+  ],
   "exports": [
     "ToastProvider",
     "ToastViewport",

@@ -6,7 +6,7 @@
   "category": "overlay",
   "files": [
     {
-      "path": "../../saas-design-system/src/components/Command/Command.tsx",
+      "path": "registry/source/command.tsx",
       "target": "components/ui/command.tsx"
     }
   ],
@@ -14,7 +14,9 @@
     "cmdk@^1.1.1",
     "lucide-react@^0.563.0"
   ],
-  "registryDependencies": ["utils"],
+  "registryDependencies": [
+    "utils"
+  ],
   "exports": [
     "Command",
     "CommandDialog",

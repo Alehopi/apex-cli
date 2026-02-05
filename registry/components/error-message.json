@@ -6,12 +6,14 @@
   "category": "utility",
   "files": [
     {
-      "path": "../../saas-design-system/src/components/ErrorMessage/ErrorMessage.tsx",
+      "path": "registry/source/error-message.tsx",
       "target": "components/ui/error-message.tsx"
     }
   ],
   "dependencies": [],
-  "registryDependencies": ["utils"],
+  "registryDependencies": [
+    "utils"
+  ],
   "exports": [
     "ErrorMessage"
   ]

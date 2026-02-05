@@ -6,12 +6,14 @@
   "category": "utility",
   "files": [
     {
-      "path": "../../saas-design-system/src/components/FieldGroup/FieldGroup.tsx",
+      "path": "registry/source/field-group.tsx",
       "target": "components/ui/field-group.tsx"
     }
   ],
   "dependencies": [],
-  "registryDependencies": ["utils"],
+  "registryDependencies": [
+    "utils"
+  ],
   "exports": [
     "FieldGroup"
   ]

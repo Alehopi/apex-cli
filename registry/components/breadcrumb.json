@@ -6,14 +6,16 @@
   "category": "navigation",
   "files": [
     {
-      "path": "../../saas-design-system/src/components/Breadcrumb/Breadcrumb.tsx",
+      "path": "registry/source/breadcrumb.tsx",
       "target": "components/ui/breadcrumb.tsx"
     }
   ],
   "dependencies": [
     "lucide-react@^0.563.0"
   ],
-  "registryDependencies": ["utils"],
+  "registryDependencies": [
+    "utils"
+  ],
   "exports": [
     "Breadcrumb",
     "BreadcrumbList",

@@ -6,7 +6,7 @@
   "category": "display",
   "files": [
     {
-      "path": "../../saas-design-system/src/components/Avatar/Avatar.tsx",
+      "path": "registry/source/avatar.tsx",
       "target": "components/ui/avatar.tsx"
     }
   ],
@@ -14,7 +14,9 @@
     "@radix-ui/react-avatar@^1.0.0",
     "class-variance-authority@^0.7.1"
   ],
-  "registryDependencies": ["utils"],
+  "registryDependencies": [
+    "utils"
+  ],
   "exports": [
     "Avatar",
     "AvatarImage",

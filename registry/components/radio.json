@@ -6,14 +6,16 @@
   "category": "inputs",
   "files": [
     {
-      "path": "../../saas-design-system/src/components/Radio/Radio.tsx",
+      "path": "registry/source/radio.tsx",
       "target": "components/ui/radio.tsx"
     }
   ],
   "dependencies": [
     "@radix-ui/react-radio-group@^1.0.0"
   ],
-  "registryDependencies": ["utils"],
+  "registryDependencies": [
+    "utils"
+  ],
   "exports": [
     "RadioGroup",
     "RadioGroupItem"

@@ -6,12 +6,14 @@
   "category": "feedback",
   "files": [
     {
-      "path": "../../saas-design-system/src/components/EmptyState/EmptyState.tsx",
+      "path": "registry/source/empty-state.tsx",
       "target": "components/ui/empty-state.tsx"
     }
   ],
   "dependencies": [],
-  "registryDependencies": ["utils"],
+  "registryDependencies": [
+    "utils"
+  ],
   "exports": [
     "EmptyState",
     "EmptyStateProps"

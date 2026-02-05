@@ -6,14 +6,16 @@
   "category": "navigation",
   "files": [
     {
-      "path": "../../saas-design-system/src/components/Tabs/Tabs.tsx",
+      "path": "registry/source/tabs.tsx",
       "target": "components/ui/tabs.tsx"
     }
   ],
   "dependencies": [
     "@radix-ui/react-tabs@^1.0.0"
   ],
-  "registryDependencies": ["utils"],
+  "registryDependencies": [
+    "utils"
+  ],
   "exports": [
     "Tabs",
     "TabsList",

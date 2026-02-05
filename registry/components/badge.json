@@ -6,14 +6,16 @@
   "category": "display",
   "files": [
     {
-      "path": "../../saas-design-system/src/components/Badge/Badge.tsx",
+      "path": "registry/source/badge.tsx",
       "target": "components/ui/badge.tsx"
     }
   ],
   "dependencies": [
     "class-variance-authority@^0.7.1"
   ],
-  "registryDependencies": ["utils"],
+  "registryDependencies": [
+    "utils"
+  ],
   "exports": [
     "Badge",
     "badgeVariants",

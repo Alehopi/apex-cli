@@ -6,12 +6,14 @@
   "category": "feedback",
   "files": [
     {
-      "path": "../../saas-design-system/src/components/Spinner/Spinner.tsx",
+      "path": "registry/source/spinner.tsx",
       "target": "components/ui/spinner.tsx"
     }
   ],
   "dependencies": [],
-  "registryDependencies": ["utils"],
+  "registryDependencies": [
+    "utils"
+  ],
   "exports": [
     "Spinner"
   ]

@@ -6,14 +6,16 @@
   "category": "display",
   "files": [
     {
-      "path": "../../saas-design-system/src/components/Divider/Divider.tsx",
+      "path": "registry/source/divider.tsx",
       "target": "components/ui/divider.tsx"
     }
   ],
   "dependencies": [
     "@radix-ui/react-separator@^1.0.0"
   ],
-  "registryDependencies": ["utils"],
+  "registryDependencies": [
+    "utils"
+  ],
   "exports": [
     "Divider"
   ]

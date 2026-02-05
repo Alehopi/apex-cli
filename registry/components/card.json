@@ -6,14 +6,16 @@
   "category": "display",
   "files": [
     {
-      "path": "../../saas-design-system/src/components/Card/Card.tsx",
+      "path": "registry/source/card.tsx",
       "target": "components/ui/card.tsx"
     }
   ],
   "dependencies": [
     "class-variance-authority@^0.7.1"
   ],
-  "registryDependencies": ["utils"],
+  "registryDependencies": [
+    "utils"
+  ],
   "exports": [
     "Card",
     "CardHeader",

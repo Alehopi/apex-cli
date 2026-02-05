@@ -6,14 +6,17 @@
   "category": "utility",
   "files": [
     {
-      "path": "../../saas-design-system/src/components/ThemeToggler/ThemeToggler.tsx",
+      "path": "registry/source/theme-toggler.tsx",
       "target": "components/ui/theme-toggler.tsx"
     }
   ],
   "dependencies": [
     "lucide-react@^0.563.0"
   ],
-  "registryDependencies": ["utils", "use-theme"],
+  "registryDependencies": [
+    "utils",
+    "use-theme"
+  ],
   "exports": [
     "ThemeToggler",
     "ThemeTogglerProps"

@@ -6,7 +6,7 @@
   "category": "utility",
   "files": [
     {
-      "path": "../../saas-design-system/src/hooks/useTheme.tsx",
+      "path": "registry/source/use-theme.tsx",
       "target": "hooks/use-theme.tsx"
     }
   ],

@@ -6,14 +6,16 @@
   "category": "inputs",
   "files": [
     {
-      "path": "../../saas-design-system/src/components/Switch/Switch.tsx",
+      "path": "registry/source/switch.tsx",
       "target": "components/ui/switch.tsx"
     }
   ],
   "dependencies": [
     "@radix-ui/react-switch@^1.0.0"
   ],
-  "registryDependencies": ["utils"],
+  "registryDependencies": [
+    "utils"
+  ],
   "exports": [
     "Switch"
   ]

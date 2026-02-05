@@ -6,12 +6,14 @@
   "category": "data-display",
   "files": [
     {
-      "path": "../../saas-design-system/src/components/Table/Table.tsx",
+      "path": "registry/source/table.tsx",
       "target": "components/ui/table.tsx"
     }
   ],
   "dependencies": [],
-  "registryDependencies": ["utils"],
+  "registryDependencies": [
+    "utils"
+  ],
   "exports": [
     "Table",
     "TableHeader",
