@@ -1,0 +1,19 @@
+{
+  "name": "pagination",
+  "type": "registry:ui",
+  "title": "Pagination",
+  "description": "Navigate through large sets of data split across multiple pages with prev/next and page number controls.",
+  "category": "navigation",
+  "files": [
+    {
+      "path": "registry/source/pagination.tsx",
+      "target": "components/ui/pagination.tsx"
+    }
+  ],
+  "dependencies": [
+    "class-variance-authority@^0.7.1",
+    "lucide-react@^0.563.0"
+  ],
+  "registryDependencies": ["utils"],
+  "exports": ["Pagination", "paginationItemVariants", "PaginationProps"]
+}

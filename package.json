@@ -1,10 +1,10 @@
 {
-  "name": "apex-cli",
+  "name": "apex-design-cli",
   "version": "1.0.0",
   "description": "CLI tool for APEX Design System - Install professional React components with a single command",
   "type": "module",
   "bin": {
-    "apex-cli": "./dist/index.js"
+    "apex-design-cli": "./dist/index.js"
   },
   "files": [
     "dist",
@@ -31,9 +31,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Alehopi/apex-cli.git"
+    "url": "https://github.com/Alehopi/apex-design-cli.git"
   },
-  "homepage": "https://github.com/Alehopi/apex-cli",
+  "homepage": "https://github.com/Alehopi/apex-design-cli",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "chalk": "^5.3.0",
     "commander": "^12.1.0",

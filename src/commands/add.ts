@@ -27,7 +27,7 @@ export async function add(componentNames: string[], options: AddOptions): Promis
   const config = await loadConfig(cwd);
   if (!config) {
     logger.error('apex.config.json not found. Run first:');
-    console.log(chalk.cyan('\n  npx apex-cli init\n'));
+    console.log(chalk.cyan('\n  npx apex-design-cli init\n'));
     process.exit(1);
   }
 
@@ -50,7 +50,7 @@ export async function add(componentNames: string[], options: AddOptions): Promis
 
   if (validNames.length === 0) {
     spinner.fail('No valid components found.');
-    console.log(chalk.gray('\n  Run ') + chalk.cyan('npx apex-cli list') + chalk.gray(' to see available components.\n'));
+    console.log(chalk.gray('\n  Run ') + chalk.cyan('npx apex-design-cli list') + chalk.gray(' to see available components.\n'));
     return;
   }
 

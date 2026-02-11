@@ -84,7 +84,7 @@ export async function list(options: ListOptions): Promise<void> {
   }
 
   console.log(chalk.gray('  Usage:'));
-  console.log(chalk.cyan('    npx apex-cli add <component-name>'));
-  console.log(chalk.cyan('    npx apex-cli add button input card'));
+  console.log(chalk.cyan('    npx apex-design-cli add <component-name>'));
+  console.log(chalk.cyan('    npx apex-design-cli add button input card'));
   console.log('');
 }

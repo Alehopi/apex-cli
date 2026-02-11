@@ -244,8 +244,8 @@ export async function init(options: InitOptions): Promise<void> {
   console.log(chalk.bold.green('  ✅ APEX Design System initialized!'));
   console.log('');
   console.log(chalk.gray('  Next steps:'));
-  console.log(chalk.cyan('    npx apex-cli list') + chalk.gray('           Browse available components'));
-  console.log(chalk.cyan('    npx apex-cli add button') + chalk.gray('     Install your first component'));
+  console.log(chalk.cyan('    npx apex-design-cli list') + chalk.gray('      Browse available components'));
+  console.log(chalk.cyan('    npx apex-design-cli add button') + chalk.gray('Install your first component'));
   console.log('');
 }
 

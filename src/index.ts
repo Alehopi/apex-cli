@@ -8,7 +8,7 @@ import { list } from './commands/list.js';
 const program = new Command();
 
 program
-  .name('apex-cli')
+  .name('apex-design-cli')
   .description('CLI tool for APEX Design System — Install professional React components with a single command')
   .version('1.0.0');
 

@@ -30,6 +30,8 @@
     "textarea",
     "theme-toggler",
     "toast",
-    "tooltip"
+    "tooltip",
+    "pagination",
+    "skeleton"
   ]
 }
