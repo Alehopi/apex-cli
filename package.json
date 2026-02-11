@@ -1,6 +1,6 @@
 {
   "name": "apex-design-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI tool for APEX Design System - Install professional React components with a single command",
   "type": "module",
   "bin": {
